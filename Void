@@ -1,0 +1,19 @@
+#include<studio>
+int main()
+{
+int n,i,j,x;
+printf("enter n value");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+x=n;
+for(j=1;j<=n;j++)
+{
+printf("%2d",x--);
+}
+Printf("\n");
+}
+return 0;
+}
+
+
